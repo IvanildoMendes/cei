@@ -65,6 +65,7 @@
                             a.href = url.trim();
                             a.textContent = anchor.trim();
                             a.target = '_blank';
+                            a.onclick = "return confirm('refg')";
                             li.appendChild(a);
                             linkList.appendChild(li);
                         }
